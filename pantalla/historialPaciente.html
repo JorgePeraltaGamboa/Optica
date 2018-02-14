@@ -1,0 +1,368 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <link rel="stylesheet" href="estiloHistorial.css">
+        <div class="cabeza">
+            <h2>Opticas cristal</h2>
+            <select class="custom-select">
+                <option selected>Usuario activo</option>
+                <option value="1">Configuración</option>
+                <option value="2">Cerrar sesión</option>
+            </select>
+        </div>
+        
+    </head>
+    <body>
+        <!--Menu izquierdo-->
+        <div class="menuIzquierdo">
+            <ul class="list-group">
+              <li class="list-group-item list-group-item-primary list-group-item-action">
+                  <a class="dropdown-item" href="paginaPrincipal.html" role="button"><h5>Pagina principal</h5></a>
+                </li>
+              <li class="list-group-item">
+                  <h5>Usuarios</h5>
+                  <a class="dropdown-item" href="todosUsuarios.html">Todos los usuarios</a>
+                  <a class="dropdown-item" href="nuevoUsuario.html">Nuevo usuario</a>
+                  <div class="dropdown-divider"></div>
+                  <h5>Pacientes</h5>
+                  <a class="dropdown-item" href="todosPacientes.html">Todos los pacientes</a>
+                  <a class="dropdown-item" href="nuevoPaciente.html">Nuevo paciente</a>
+                  <h5>Bitácora</h5>
+                  <a class="dropdown-item" href="bitacora.html">Observar Bitácora</a>
+                  <h5>Estadísticas</h5>
+                  <a class="dropdown-item" href="estadisticas.html">Observar Estadísticas</a>
+
+                </li>
+            </ul>
+        </div>
+        
+        <!--Contenido-->
+        <!--Solo cambiar o editar esta seccion-->
+        <div class="contenido">
+            <div id="accordion" role="tablist">
+              <div class="card">
+                  
+                <div class="card-header">
+                  <h5 class="mb-0">Historial del paciente</h5>
+                </div>
+                  
+                <img src="imageIcon.jpg">
+                <div class="card-body">
+                    
+                    <div class="cont1">
+                        
+                        <form>
+                          <fieldset>
+                            <!--Datos paciente-->
+                            <div class="card-header titulo5">
+                                <h5 class="mb-0">Datos del paciente</h5>
+                            </div>
+                            <div class="form-group campo1">
+                                <label class="">Nombre</label>
+                                <input type="text" class="form-control" placeholder="Nombre(s)">
+                                <input type="text" class="form-control" placeholder="Apellido paterno">
+                                <input type="text" class="form-control" placeholder="Apellido materno">
+                            </div>
+                            <div class="form-group campo2">
+                                <label class="">Telefono</label>
+                                <input type="tel" class="form-control" placeholder="Telefono">
+                                <label class="">Ocupacion</label>
+                                <input type="text" class="form-control" placeholder="Ocupacion">
+                            </div>
+                              
+                            <div class="form-group">
+                                <div class="naci">
+                                    <label class="">Fecha nacimiento</label>
+                                    <input type="date" class="form-control">
+                                </div>
+                                <div class="campo3">
+                                    <label class="">Domicilio</label>
+                                    <input type="text" class="form-control" placeholder="Domicilio">
+                                    <label class="">Colonia</label>
+                                    <input type="text" class="form-control" placeholder="Colonia">
+                                    <label class="">No.</label>
+                                    <input type="text" class="form-control" placeholder="Numero">
+                                </div>
+                            </div>
+                              
+                            <!--Motivo-->
+                            <div class="card-header titulo5">
+                                <h5 class="mb-0">Motivo de consulta</h5>
+                            </div>
+                            <div class="campo4">
+                                <textarea class="form-control" rows="3" placeholder="Describa aqui su motivo..."></textarea>
+                                <label class="">AP:</label>
+                                <input type="text" class="form-control" placeholder="...">
+                                <label class="">AHF:</label>
+                                <input type="text" class="form-control" placeholder="...">
+                            </div>
+                            <div class="campo2">
+                                <hr>
+                                <div class="campo5">
+                                    <!--tabla 1-->
+                                    <table class="table tabla1">
+                                      <thead class="thead-dark">
+                                        <tr>
+                                            <th scope="col">OJO</th>
+                                            <th scope="col">LEJOS</th>
+                                            <th scope="col">CERCA</th>
+                                            <th scope="col">LEJOS C/C</th>
+                                            <th scope="col">CERCA C/C</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <th scope="row">DERECHO</th>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                        </tr>
+                                        <tr>
+                                          <th scope="row">IZQUIERDO</th>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                        </tr>
+                                        <tr>
+                                          <th scope="row">AMBOS</th>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    
+                                    <!--tabla 2-->
+                                    <table class="table tabla2">
+                                      <thead class="thead-dark">
+                                        <tr>
+                                            <th scope="col" colspan="2">CAPACIDAD VISUAL:</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <th scope="row">OD</th>
+                                            <td>...</td>
+                                        </tr>
+                                        <tr>
+                                          <th scope="row">OI</th>
+                                            <td>...</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                </div>
+                                
+                                <div class="campo6">
+                                    <label class="">DIP:</label>
+                                    <input type="text" class="form-control" placeholder="...">
+                                    <label class="">PPC:</label>
+                                    <input type="text" class="form-control" placeholder="...">
+                                    <label class="">MED:</label>
+                                    <input type="text" class="form-control" placeholder="...">
+                                    <label class="">CVTEST:</label>
+                                    <input type="text" class="form-control" placeholder="...">
+                                </div>
+                            </div>
+                            
+                            <!--QUERATOMETRIAS-->
+                            <div class="campo2">
+                                <hr>
+                                <div class="campo7">
+                                    <div>
+                                        <table class="table">
+                                          <thead>
+                                              <tr>
+                                                <th scope="col" colspan="6">QUERATOMETRIAS: </th>
+                                              </tr>
+                                            <tr>
+                                                <th scope="col">OJO</th>
+                                                <th scope="col">1</th>
+                                                <th scope="col">2</th>
+                                                <th scope="col">EJE</th>
+                                                <th scope="col">DIOPTRIAS 1</th>
+                                                <th scope="col">DIOPTRIAS 2</th>
+                                            </tr>
+                                          </thead>
+                                          <tbody>
+                                            <tr>
+                                              <th scope="row">OD</th>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                            </tr>
+                                            <tr>
+                                              <th scope="row">OI</th>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="campo71">
+                                        <div>
+                                            <h5 class="mb-0">RX OBJETIVA</h5>
+                                            <label class="">OD:</label>
+                                            <input type="text" class="form-control" placeholder="...">
+                                            <label class="">OI:</label>
+                                            <input type="text" class="form-control" placeholder="...">
+                                        </div>
+                                        <div>
+                                            <h5 class="mb-0">RX FINAL</h5>
+                                            <label class="">OD:</label>
+                                            <input type="text" class="form-control" placeholder="...">
+                                            <label class="">OI:</label>
+                                            <input type="text" class="form-control" placeholder="...">
+                                        </div>
+                                    </div>
+                                    <div class="campo71">
+                                        <table class="table tabla2">
+                                          <thead>
+                                            <tr>
+                                                <th scope="col"></th>
+                                                <th scope="col">LEJOS</th>
+                                                <th scope="col">CERCA</th>
+                                            </tr>
+                                          </thead>
+                                          <tbody>
+                                            <tr>
+                                              <th scope="row">AV:</th>
+                                                <td>...</td>
+                                                <td>...</td>
+                                            </tr>
+                                            <tr>
+                                              <th scope="row">AV:</th>
+                                                <td>...</td>
+                                                <td>...</td>
+                                            </tr>
+                                            <tr>
+                                              <th scope="row">AV:</th>
+                                                <td>...</td>
+                                                <td>...</td>
+                                            </tr>
+                                            <tr>
+                                              <th scope="row">AV:</th>
+                                                <td>...</td>
+                                                <td>...</td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="campo1">
+                                        <label class="">ADD:</label>
+                                        <input type="text" class="form-control" placeholder="...">
+                                        <label class="">ALTURA:</label>
+                                        <input type="text" class="form-control" placeholder="...">
+                                    </div>
+                                </div>
+                                <div class="campo8">
+                                    <table class="table">
+                                        <thead class="thead-dark">
+                                            <tr>
+                                                <th scope="col">RX ANTERIOR</th>
+                                                <th scope="col"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                              <th scope="row">OD</th>
+                                                <td>...</td>
+                                            </tr>
+                                            <tr>
+                                              <th scope="row">OI</th>
+                                                <td>...</td>
+                                            </tr>
+                                            <tr>
+                                              <th scope="row">ADD</th>
+                                                <td>...</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table class="table">
+                                        <thead class="thead-dark">
+                                            <tr>
+                                                <th scope="col">TIPO DE LENTE</th>
+                                                <th scope="col"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                              <th scope="row">MATERIAL</th>
+                                                <td>...</td>
+                                            </tr>
+                                            <tr>
+                                              <th scope="row">TRATAMIENTO</th>
+                                                <td>...</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                              
+                            <div class="campo9">
+                                <hr>
+                                <div class="campo91">
+                                    <label class="">Salud ocular:</label>
+                                    <input type="text" class="form-control" placeholder="...">
+                                    <label class="">Fondo de ojo:</label>
+                                    <input type="text" class="form-control" placeholder="...">
+                                </div>
+                                <div class="campo92">
+                                    <div>
+                                        <h6></h6>
+                                        <label class="">DX:</label>
+                                        <input type="text" class="form-control" placeholder="...">
+                                        <label class="">TX:</label>
+                                        <input type="text" class="form-control" placeholder="...">
+                                    </div>
+                                    <div>
+                                        <h6>DX Refractivo</h6>
+                                        <label class="">OD:</label>
+                                        <input type="text" class="form-control" placeholder="...">
+                                        <label class="">OI:</label>
+                                        <input type="text" class="form-control" placeholder="...">
+                                    </div>
+                                    <h6>Observaciones:</h6>
+                                    <textarea class="form-control" rows="3" placeholder="alv"></textarea>
+                                </div>
+                                <div></div>
+                            </div>
+                            <div class="campo93">
+                                <hr>
+                                <div>
+                                    <label class="">Proxima cita:</label>
+                                    <input type="date" class="form-control">
+                                    <select class="custom-select">
+                                        <option selected>Administrador</option>
+                                        <option value="1">Optometrista</option>
+                                        <option value="2">Secretaria</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!--final de la pagina-->
+                            <div class="campoFinal">
+                                <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox" value="">
+                                    Autorizar
+                                </label>
+                                <button type="button" class="btn btn-lg btn-success">Aceptar y procesar</button>
+                            </div>
+                          </fieldset>
+                        </form>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <!--Fin de contenido-->
+    </body>
+    <footer>
+    </footer>
+</html>

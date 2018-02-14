@@ -1,0 +1,321 @@
+html {
+    text-transform: uppercase;
+}
+.cabeza {
+    float: left; 
+    width: 100%;
+    height: 10%;
+    color: white;
+    display: block;
+    position: fixed;
+    background-color: black;
+    z-index: 1;
+}
+
+.cabeza h2 {
+    float: left;
+    margin: 1%;
+}
+
+.cabeza select {
+    float: right;
+    margin: 1%;
+    background-color: black;
+    color: white;
+}
+
+.menuIzquierdo {
+    float: left;
+    width: 20%;
+    height: 100%;
+    margin: 0.5%;
+    margin-top: 6%;
+    position: fixed;
+}
+
+.contenido {
+    float: left;
+    margin: 0.5%;
+    margin-top: 6%;
+    margin-left: 22%;
+    width: 78%;
+}
+
+.contenido img {
+    display: block;
+    margin: auto;
+    margin-top: 1%;
+    width: 50%;
+}
+
+.cont1 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 0.5%;
+}
+
+.cont1 img {
+    width: 50%;
+}
+
+.titulo5 {
+    text-align: left;
+    width: 100%;
+    height: 5%;
+    float: left;
+    padding-bottom: 3.5%;
+}
+
+.textArea {
+    
+}
+
+.campo1 {
+    float: left;
+    width: 100%;
+}
+
+.campo1 label {
+    float: left;
+    text-align: left;
+    width: 10%;
+    margin-right: 5%;
+}
+
+.campo1 input {
+    float: left;
+    width: 27%;
+    margin: 0.5%
+}
+
+.campo2 {
+    float: left;
+    width: 100%;
+}
+
+.campo2 label {
+    float: left;
+    text-align: left;
+    width: 10%;
+    margin-right: 5%;
+}
+
+.campo2 input {
+    float: left;
+    width: 33.5%;
+    margin: 0.5%
+}
+
+.campo3 {
+    float: left;
+    width: 80%;
+}
+
+.campo3 label {
+    float: left;
+    text-align: left;
+    width: 15%;
+    margin: 1%;
+    margin-left: 2.2%;
+}
+
+.campo3 input {
+    float: left;
+    width: 30%;
+    margin: 0.5%
+}
+
+.naci {
+    float: left;
+    width: 20%;
+}
+
+.campo4 textarea {
+    float: left;
+    width: 96%;
+    margin: 2%;
+}
+
+.campo4 label {
+    float: left;
+    width: 10%;
+    margin: 2%;
+}
+
+.campo4 input {
+    float: left;
+    margin: 2%;
+    width: 87%;
+}
+
+.campo5 {
+    float: left;
+    width: 100%;
+}
+
+.tabla1 {
+    float: left;
+    width: 69%;
+    margin-right: 1%;
+}
+
+.tabla2 {
+    float: left;
+    width: 29%;
+    margin-left: 1%;
+}
+
+.campo6 {
+    float: left;
+    width: 100%;
+}
+
+.campo6 label {
+    width: 7%;
+    float: left;
+    margin-left: 4%;
+}
+
+.campo6 input {
+    float: left;
+    width: 12.5%;
+    margin-left: -4%;
+}
+
+.campo7 {
+    float: left;
+    width: 69%;
+    margin: 0.5%;
+}
+
+.campo71 {
+    float: left;
+    width: 50%;
+}
+
+.campo71 div {
+    float: left;
+    width: 100%;
+}
+
+.campo71 h5 {
+    width: 100%;
+    text-align: left;
+    padding: 1%;
+}
+
+.campo71 label {
+    width: 15%;
+    float: left;
+    padding-left: 3%;
+    padding-top: 2%;
+}
+
+.campo71 input {
+    width: 75%;
+    float: left;
+}
+
+.campo71 table {
+    width: 100%;
+    padding: 1%;
+}
+
+.campo8 {
+    float: left;
+    width: 29%;
+    margin: 0.5%;
+}
+
+.campo8 table {
+    margin-bottom: 2%;
+}
+
+.campo9 {
+    width: 100%;
+    float: left;
+}
+
+.campo91 label {
+    float: left;
+    width: 15%;
+    padding-top: 0.5%;
+}
+
+.campo91 input {
+    float: left;
+    width: 80%;
+}
+
+.campo92 {
+    float: left;
+    width: 100%;
+    text-align: left;
+    padding: 1%;
+}
+
+.campo92 div {
+    float: left;
+    width: 50%;
+}
+
+.campo92 label {
+    float: left;
+    width: 10%;
+}
+
+.campo92 input {
+    float: left;
+    width: 85%;
+}
+
+.campo93 {
+    float: left;
+    width: 100%;
+    margin: 1%;
+}
+
+.campo93 div{
+    float: left;
+    width: 100%;
+}
+
+.campo93 label {
+    float: left;
+    width: 20%;
+    padding-top: 1%;
+}
+
+.campo93 input {
+    float: left;
+    width: 20%;
+}
+
+.campoFinal {
+    float: left;
+    width: 100%;
+    padding: 1.5%;
+}
+
+.campoFinal label {
+    float: left;
+    width: 20%;
+    margin: auto;
+}
+
+.campoFinal button {
+    float: right;
+    margin-right: 15%;
+}
+
+hr {
+    width: 100%;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
